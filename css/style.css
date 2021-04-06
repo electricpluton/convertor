@@ -1,0 +1,30 @@
+#app {
+    /* background-color: aqua; */
+   display: block;
+    margin: 0 auto;
+
+}
+
+#app-btn {
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px;
+    grid-template-rows:  100px 100px 100px 100px ;
+}
+#screen-container {
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: 50px 50px;
+}
+
+
+.screen {
+    text-align: right; 
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}  
+
+#screen-number {
+    font-size: 24px;
+    color: blue;
+}
