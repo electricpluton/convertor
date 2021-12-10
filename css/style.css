@@ -1,15 +1,30 @@
-#app {
-    /* background-color: aqua; */
-   display: block;
-    margin: 0 auto;
+
+
+body {
+  margin: 0;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 
 }
+
+#app {
+  margin-top: 50px;
+}
+
 
 #app-btn {
     display: grid;
     grid-template-columns: 175px 175px 175px 175px;
     grid-template-rows:  100px 100px 100px 100px ;
 }
+
 #screen-container {
     display: grid;
     grid-template-columns: 700px;
@@ -18,11 +33,11 @@
 
 
 .screen {
-    text-align: right; 
+    text-align: right;
     font-size: 14px;
     font-weight: bold;
     color: green;
-}  
+}
 
 #screen-number {
     font-size: 24px;
